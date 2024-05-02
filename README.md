@@ -1,6 +1,6 @@
 # Docker containers
-* - for new setup just run docker-compose up -d .
-* - if already don't create new containers
+* for new setup just run docker-compose up -d .
+* if already don't create new containers
 ## Run docker compose services
 * `redis`
   * `docker compose up -d redis`
