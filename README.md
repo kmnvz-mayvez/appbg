@@ -1,7 +1,7 @@
 ## Docker containers
 * for new setup just run docker-compose up -d .
-* set up local host config
-* if already don't create new containers
+* set up localhost config
+* create new containers
 ### Run docker compose services
 * `redis`
   * `docker compose up -d redis`
