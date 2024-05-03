@@ -1,0 +1,13 @@
+server.name: kibana
+server.host: "0.0.0.0"
+server.port: 5601
+elasticsearch.hosts: ["http://elasticsearch_container:9200"]
+monitoring.ui.container.elasticsearch.enabled: true
+xpack.fleet.enabled: true
+xpack.fleet.agents.enabled: true
+xpack.fleet.agents.elasticsearch.hosts: ["http://elasticsearch_container:9200"]
+xpack.reporting.roles.enabled: true
+xpack.fleet.agentIdVerificationEnabled: false
+xpack.security.encryptionKey: 
+xpack.encryptedSavedObjects.encryptionKey: 
+elasticsearch.requestTimeout: 90000
