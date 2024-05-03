@@ -9,9 +9,9 @@
   * The communication style used in the service is the `Request/Response` pattern.
 
 ## Docker containers
-* for new setup just run docker-compose up -d .
-* set up localhost config
 * create new containers
+* set up localhost config
+* for all setup run `docker-compose up -d .`
 ### Run docker compose services
 * `redis`
   * `docker compose up -d redis`
