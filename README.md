@@ -1,6 +1,6 @@
 # Creating parking app 
 
-## services 
+## Services 
 * `Auth`
   * The authentication is responsible for creating users
 * `Gateway`
