@@ -4,9 +4,12 @@
 * `Auth`
   * The authentication is responsible for creating users
 * `Gateway`
-  * The gateway microservice is responsible for managing requests that comes from the frontend
+  * The gateway is responsible for managing requests that comes from the frontend
   * Every request that comes from the frontend must pass through the `API Gateway Service`
   * The communication style used in the service is the `Request/Response` pattern.
+* `Computing`
+  * Computing is responsible to processing the images
+  * Convert the result to Json file
 
 ## Docker containers
 * create new containers
@@ -27,5 +30,5 @@
   * `docker compose up -d elasticsearch`
 
 ## Credits 
-* `image processing`
+* `image processing with tensorflow`
  * thanks to https://github.com/img88/ALPR_IndonesiaPlateNumber_ComputerVision

@@ -66,7 +66,7 @@ async function startQueues(): Promise<void> {
 
 function startElasticSearch(): void {
   checkConnection();
-  createIndex('cars');
+  createIndex('plates');
 }
 
 function authErrorHandler(app: Application): void {
