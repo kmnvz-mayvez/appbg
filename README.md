@@ -9,7 +9,7 @@
   * The communication style used in the service is the `Request/Response` pattern.
 * `Computing`
   * Computing is responsible to processing the images
-  * Convert the result to Json file
+  * Convert the result to json file
 
 ## Docker containers
 * create new containers
