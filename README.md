@@ -1,6 +1,6 @@
 # Creating parking app 
 
-## services 
+## Services 
 * `Auth`
   * The authentication is responsible for creating users
 * `Gateway`
@@ -23,3 +23,7 @@
   * `docker compose up -d redis`
 * `elasticsearch`
   * `docker compose up -d elasticsearch`
+
+## Credits 
+* `image processing`
+ * thanks to https://github.com/img88/ALPR_IndonesiaPlateNumber_ComputerVision
