@@ -9,6 +9,7 @@ Creating a parking app with a microservices and big data approach involves desig
    * Build Model        : Creating a Sequential model with Conv2D layers to extract features from images, MaxPooling2D layers to reduce feature size, and Dense layers for final classification.
    * Compile Model      : Compiling the model using the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function.
    * Train Model        : Training the model using the fit() method with training and validation datasets for a specified number of epochs.
+   
 * `Spark`
    * Data Reading: The code loads user data and license plate data from separate CSV files. 
    * Data Merging: User data and license plate data are merged based on the license plate number to create a unified dataset.
@@ -44,7 +45,7 @@ Creating a parking app with a microservices and big data approach involves desig
 * `elasticsearch`
   * `docker compose up -d elasticsearch`
 
-## Result Data
+## Result Data User
 
 You can find the CSV data full [here](https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv):
 
@@ -55,6 +56,23 @@ You can find the CSV data full [here](https://github.com/kmnvz-mayvez/appbg/blob
 | 6640195c43df89dc0bba2ee7 | Rapidspatula | macie.kemmer29@yahoo.com    | https://picsum.photos/seed/iC6uZrY/640/480      | 2        | 10000 | B7J8Z5T2    | 1-700-810-0785 x142 | 2024-05-12 01:20:27.828000 |
 | 6640195c43df89dc0bba2eea | Riotousgamet | cordia30@hotmail.com        | https://picsum.photos/seed/I5zhd/640/480        | 4        | 20000 | B6J1W4T9    | (287) 811-3914      | 2024-05-12 01:20:27.999000 |
 | 6640195c43df89dc0bba2eed | Crudeclipper | cassidy85@hotmail.com       | https://picsum.photos/seed/83aZQEEVt/640/480   | 4        | 20000 | B7W9N3T2    | 748-451-3798 x47215 | 2024-05-12 01:20:28.340000 |
+
+## Result Plate Data
+
+You can find the CSV data full [here](https://github.com/kmnvz-mayvez/appbg/blob/main/plate.csv):
+
+| id  | plate    | source     |
+|-----|----------|------------|
+| 1   | B3O23KEZ | motorcycle |
+| 2   | B3A4R5U2 | motorcycle |
+| 3   | B8C2X4V5 | motorcycle |
+| 4   | B1M3U8R7 | motorcycle |
+| 5   | B5M2W3C9 | motorcycle |
+| 6   | B7Y4V3K9 | motorcycle |
+| 7   | B1F9X7Z4 | motorcycle |
+| 8   | B3E8H1T6 | motorcycle |
+| 9   | B2N7Y9U6 | motorcycle |
+| 10  | B4B7X8D5 | motorcycle |
 
 ## Credits 
 * `image processing with tensorflow`
