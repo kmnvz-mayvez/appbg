@@ -27,27 +27,7 @@ services:
       - 27017:27017
     volumes:
       - ./docker-volumes/data:/data/db
-
-  spark:
-    container_name: spark_container
-    image: bitnami/spark:3
-    ports:
-      - "8080:8080"
-      - "7077:7077"
-    environment:
-      - SPARK_MODE=master
-    volumes:
-      - ./docker-volumes/spark:/bitnami/spark
-
-  spark-worker:
-    image: bitnami/spark:3
-    container_name: spark-worker
-    environment:
-      - SPARK_MODE=worker
-      - SPARK_MASTER_ADDRESS=spark_container
-    depends_on:
-      - spark
-  
+      
   mysql:
     container_name: mysql_container
     image: mysql
