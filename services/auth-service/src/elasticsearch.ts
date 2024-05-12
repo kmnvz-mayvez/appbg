@@ -1,7 +1,7 @@
 import { Client } from '@elastic/elasticsearch';
 import { ClusterHealthResponse, GetResponse } from '@elastic/elasticsearch/lib/api/types';
 import { config } from '@auth/config';
-import { IUserDocument } from '@auth/interface/user.interface';
+import { IUserDocument } from './interfaces/user.interface';
 import { winstonLogger } from '@kmnvz-mayvez/myapp-share';
 import { Logger } from 'winston';
 
