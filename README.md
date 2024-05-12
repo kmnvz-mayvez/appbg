@@ -45,6 +45,11 @@ Creating a parking app with a microservices and big data approach involves desig
 
 You can find the CSV data [here](https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv):
 
-| _id                  | username     | email                      | profilePicture                                   | hourStay | cost  | plateNumber | phoneNumber          | createdAt                 |
-|----------------------|--------------|----------------------------|--------------------------------------------------|----------|-------|-------------|----------------------|---------------------------|
-| 6640195b43df89dc0bba2ee1 | Well-placeda | bernita99@hotmail.com      | https://picsum.photos/seed/Il7ez8wv7D/640/480    | 4        | 20000 | B4W3T9S1    | (861) 213-9322 x777  | 2024-05-12T01:20:27.470+00:00 |
+| _id                  | username      | email                       | profilePicture                                  | hourStay | cost  | plateNumber | phoneNumber          | createdAt                 |
+|----------------------|---------------|-----------------------------|-------------------------------------------------|----------|-------|-------------|----------------------|---------------------------|
+| 6640195b43df89dc0bba2ee1 | Well-placeda | bernita99@hotmail.com       | https://picsum.photos/seed/Il7ez8wv7D/640/480   | 4        | 20000 | B4W3T9S1    | (861) 213-9322 x777  | 2024-05-12T01:20:27.470+00:00 |
+| 6640195b43df89dc0bba2ee4 | Duskysuperhi | felicita42@yahoo.com        | https://picsum.photos/seed/tKGqzaZoK/640/480    | 7        | 35000 | B8C2X4V5    | 794-485-6055        | 2024-05-12 01:20:27.669000 |
+| 6640195c43df89dc0bba2ee7 | Rapidspatula | macie.kemmer29@yahoo.com    | https://picsum.photos/seed/iC6uZrY/640/480      | 2        | 10000 | B7J8Z5T2    | 1-700-810-0785 x142 | 2024-05-12 01:20:27.828000 |
+| 6640195c43df89dc0bba2eea | Riotousgamet | cordia30@hotmail.com        | https://picsum.photos/seed/I5zhd/640/480        | 4        | 20000 | B6J1W4T9    | (287) 811-3914      | 2024-05-12 01:20:27.999000 |
+| 6640195c43df89dc0bba2eed | Crudeclipper | cassidy85@hotmail.com       | https://picsum.photos/seed/83aZQEEVt/640/480   | 4        | 20000 | B7W9N3T2    | 748-451-3798 x47215 | 2024-05-12 01:20:28.340000 |
+
