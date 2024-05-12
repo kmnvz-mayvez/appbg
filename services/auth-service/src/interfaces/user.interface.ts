@@ -12,10 +12,9 @@ export interface IUserDocument extends Record<string, UserType> {
     _id?: string | ObjectId;
     profilePublicId?: string;
     profilePicture?: string;
-    platImage: string;
-    platNumber: string;
-    carType: string;
-    hourStay: number;
+    plateNumber?: string;
+    hourStay?: number;
+    cost?: number;
     username?: string;
     email?: string;
     phoneNumber: string;

@@ -1,4 +1,3 @@
-
 import { userById, userSearch } from '@auth/services/search.service';
 import { IPaginateProps, ISearchResult } from '@kmnvz-mayvez/myapp-share';
 import { Request, Response } from 'express';
@@ -13,8 +12,8 @@ export async function user(req: Request, res: Response): Promise<void> {
     `${req.query.query}`,
     paginate,
     `${req.query.stay_time}`,
-    parseInt(`${req.query.minPrice}`),
-    parseInt(`${req.query.maxPrice}`),
+    parseInt(`${req.query.minCost}`),
+    parseInt(`${req.query.maxCost}`),
   );
 
   for (const item of users.hits) {
@@ -25,11 +24,11 @@ export async function user(req: Request, res: Response): Promise<void> {
     resultHits = sortBy(resultHits, ['sortId']);
   }
 
-  res.status(StatusCodes.OK).json({ message: 'Search users results', total: users.total, fishs: resultHits });
+  res.status(StatusCodes.OK).json({ message: 'Search users results', total: users.total, users: resultHits });
 }
 
 export async function singleUserById(req: Request, res: Response): Promise<void> {
-  const user = await userById('appbg', req.params.userId);
+  const user = await userById('users', req.params.userId);
 
   res.status(StatusCodes.OK).json({ message: 'Single user result', user });
 }

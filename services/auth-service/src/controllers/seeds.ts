@@ -1,10 +1,12 @@
 import { createAuthUser, getUserByUsernameOrEmail } from '@auth/services/auth.service';
 import { faker } from '@faker-js/faker';
-import { BadRequestError, IAuthDocument, firstLetterUppercase, lowerCase } from '@kmnvz-mayvez/myapp-share';
+import { BadRequestError, firstLetterUppercase, lowerCase, seedPlate } from '@kmnvz-mayvez/myapp-share';
+import { IAuthDocument } from '@auth/interfaces/auth.interface';
 import { Request, Response } from 'express';
 import { generateUsername } from 'unique-username-generator';
 import { v4 as uuidV4 } from 'uuid';
 import { StatusCodes } from 'http-status-codes';
+import { sample } from 'lodash';
 
 export async function create(req: Request, res: Response): Promise<void> {
   const { count } = req.params;
@@ -19,6 +21,10 @@ export async function create(req: Request, res: Response): Promise<void> {
     const email = faker.internet.email();
     const password = 'qwerty';
     const phoneNumber = faker.phone.number();
+    const plateNumber = `${sample(seedPlate)}`;
+    const hourStay = faker.number.int({ min: 1, max: 10 });
+    const costPerHour = 5000;
+    const totalCost = hourStay * costPerHour;
     const profilePicture = faker.image.urlPicsumPhotos();
     const checkIfUserExist: IAuthDocument | undefined = await getUserByUsernameOrEmail(username, email);
     if (checkIfUserExist) {
@@ -30,6 +36,9 @@ export async function create(req: Request, res: Response): Promise<void> {
       email: lowerCase(email),
       profilePublicId,
       password,
+      plateNumber,
+      hourStay,
+      cost: totalCost,
       phoneNumber,
       profilePicture
     } as IAuthDocument;

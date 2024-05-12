@@ -28,6 +28,18 @@ const AuthModel: ModelDefined<IAuthDocument, AuthUserCreationAttributes> = seque
     type: DataTypes.STRING,
     allowNull: false
   },
+  plateNumber: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  hourStay: {
+    type: DataTypes.INTEGER,
+    allowNull: true
+  },
+  cost: {
+    type: DataTypes.INTEGER,
+    allowNull: true
+  },
   phoneNumber: {
     type: DataTypes.STRING,
     allowNull: false

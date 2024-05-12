@@ -17,6 +17,10 @@ const signupSchema: ObjectSchema = Joi.object().keys({
     'string.base': 'Phone must be of type string',
     'string.empty': 'Phone number is a required field'
   }),
+  plateNumber: Joi.string().required().messages({
+    'string.base': 'Plate must be of type string',
+    'string.empty': 'Plate number is a required field'
+  }),
   email: Joi.string().email().required().messages({
     'string.base': 'Email must be of type string',
     'string.email': 'Invalid email',

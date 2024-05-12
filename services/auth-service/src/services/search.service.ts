@@ -1,7 +1,7 @@
 import { elasticSearchClient, getDocumentById } from '@auth/elasticsearch';
 import { SearchResponse } from '@elastic/elasticsearch/lib/api/types';
 import { IHitsTotal, IPaginateProps, IQueryList, ISearchResult } from '@kmnvz-mayvez/myapp-share';
-import { IUserDocument } from '@auth/interface/user.interface';
+import { IUserDocument } from '@auth/interfaces/user.interface';
 
 export async function userById(index: string, userId: string): Promise<IUserDocument> {
     const user: IUserDocument = await getDocumentById(index, userId);
@@ -19,7 +19,7 @@ export async function userSearch(
     const queryList: IQueryList[] = [
         {
             query_string: {
-                fields: ["username", "platNumber", "catType"],
+                fields: ["username", "plateNumber"],
                 query: `*${searchQuery}*`
             }
         },
@@ -50,7 +50,7 @@ export async function userSearch(
         });
     }
     const result: SearchResponse = await elasticSearchClient.search({
-        index: 'cars',
+        index: 'users',
         size,
         query: {
             bool: {
