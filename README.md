@@ -19,8 +19,6 @@ Creating a parking app with a microservices and big data approach involves desig
 ### Run docker compose services
 * `redis`
   * `docker compose up -d redis`
-* `spark`
-  * `docker compose up -d spark`
 * `mongodb`
   * `docker compose up -d mongodb`
 * `mysql`
