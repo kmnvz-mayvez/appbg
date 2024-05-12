@@ -49,9 +49,9 @@ You can find the CSV data [here](https://github.com/kmnvz-mayvez/appbg/blob/main
 
 ## Credits 
 * `image processing with tensorflow`
- * thanks to https://github.com/img88/ALPR_IndonesiaPlateNumber_ComputerVision
+ * `thanks to` https://github.com/img88/ALPR_IndonesiaPlateNumber_ComputerVision
 * `plate image`
- * https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate
+ * `thanks to` https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate
 
 ## <span style="background-color: #ffff00">Disclaimer</span>
 
