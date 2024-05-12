@@ -53,3 +53,6 @@ You can find the CSV data [here](https://github.com/kmnvz-mayvez/appbg/blob/main
 | 6640195c43df89dc0bba2eea | Riotousgamet | cordia30@hotmail.com        | https://picsum.photos/seed/I5zhd/640/480        | 4        | 20000 | B6J1W4T9    | (287) 811-3914      | 2024-05-12 01:20:27.999000 |
 | 6640195c43df89dc0bba2eed | Crudeclipper | cassidy85@hotmail.com       | https://picsum.photos/seed/83aZQEEVt/640/480   | 4        | 20000 | B7W9N3T2    | 748-451-3798 x47215 | 2024-05-12 01:20:28.340000 |
 
+## Disclaimer
+
+This project is created for educational purposes. The data used in this project is either synthetic or obtained from public sources. Any resemblance to real persons, living or dead, or actual events is purely coincidental.
