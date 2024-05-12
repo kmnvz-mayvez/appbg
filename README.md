@@ -53,6 +53,6 @@ You can find the CSV data [here](https://github.com/kmnvz-mayvez/appbg/blob/main
 * `plate image`
  * https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate
 
-## Disclaimer
+## <span style="background-color: #ffff00">Disclaimer</span>
 
 This project is created for educational purposes. The data used in this project is either synthetic or obtained from public sources. Any resemblance to real persons, living or dead, or actual events is purely coincidental.
