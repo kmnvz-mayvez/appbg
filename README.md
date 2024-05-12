@@ -41,5 +41,10 @@ Creating a parking app with a microservices and big data approach involves desig
 * `plate image`
  * https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate
 
-## Result Data 
-https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv
+## Result Data
+
+You can find the CSV data [here](https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv):
+
+| _id                  | username     | email                      | profilePicture                                   | hourStay | cost  | plateNumber | phoneNumber          | createdAt                 |
+|----------------------|--------------|----------------------------|--------------------------------------------------|----------|-------|-------------|----------------------|---------------------------|
+| 6640195b43df89dc0bba2ee1 | Well-placeda | bernita99@hotmail.com      | https://picsum.photos/seed/Il7ez8wv7D/640/480    | 4        | 20000 | B4W3T9S1    | (861) 213-9322 x777  | 2024-05-12T01:20:27.470+00:00 |
