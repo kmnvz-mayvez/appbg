@@ -37,7 +37,7 @@ Creating a parking app with a microservices and big data approach involves desig
 
 ## Result Data
 
-You can find the CSV data [here](https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv):
+You can find the CSV data full [here](https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv):
 
 | _id                  | username      | email                       | profilePicture                                  | hourStay | cost  | plateNumber | phoneNumber          | createdAt                 |
 |----------------------|---------------|-----------------------------|-------------------------------------------------|----------|-------|-------------|----------------------|---------------------------|
