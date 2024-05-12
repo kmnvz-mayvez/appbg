@@ -40,3 +40,6 @@ Creating a parking app with a microservices and big data approach involves desig
  * thanks to https://github.com/img88/ALPR_IndonesiaPlateNumber_ComputerVision
 * `plate image`
  * https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate
+
+## Result Data 
+https://github.com/kmnvz-mayvez/appbg/blob/main/data-user.csv
