@@ -3,12 +3,21 @@ Creating a parking app with a microservices and big data approach involves desig
 
 ## Machine learing
 * `Plate detection`
-  * Import Libraries   : Importing necessary libraries like matplotlib, numpy, and tensorflow.
-  * Create Dataset     : Using tf.keras.preprocessing.image_dataset_from_directory to load image dataset from a specific   directory. The dataset is split into training and validation subsets.
-  * Normalize Dataset  : Normalizing the dataset to convert pixel values to the range [0,1].
-  * Build Model        : Creating a Sequential model with Conv2D layers to extract features from images, MaxPooling2D layers to reduce feature size, and Dense layers for final classification.
-  * Compile Model      : Compiling the model using the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function.
-  * Train Model        : Training the model using the fit() method with training and validation datasets for a specified number of epochs.
+   * Import Libraries   : Importing necessary libraries like matplotlib, numpy, and tensorflow.
+   * Create Dataset     : Using tf.keras.preprocessing.image_dataset_from_directory to load image dataset from a specific   directory. The dataset is split into training and validation subsets.
+   * Normalize Dataset  : Normalizing the dataset to convert pixel values to the range [0,1].
+   * Build Model        : Creating a Sequential model with Conv2D layers to extract features from images, MaxPooling2D layers to reduce feature size, and Dense layers for final classification.
+   * Compile Model      : Compiling the model using the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function.
+   * Train Model        : Training the model using the fit() method with training and validation datasets for a specified number of epochs.
+* `Spark`
+   * Data Reading: The code loads user data and license plate data from separate CSV files. 
+   * Data Merging: User data and license plate data are merged based on the license plate number to create a unified dataset.
+   * Feature Preparation: Features for the Linear Regression model are prepared using an assembler to combine features into a single feature vector.
+   * Data Splitting: The dataset is split into training and testing sets in an 80:20 ratio for training and evaluating the model.
+   * Model Initialization and Training: The Linear Regression model is initialized and trained using the training set.
+   * Prediction: The model is used to make predictions of parking costs on the test set.
+   * Model Evaluation: The model's performance is evaluated using the Mean Squared Error to measure how well it predicts parking costs.
+   * Ultimate Goal: The ultimate goal of the code is to produce a machine learning model that can predict parking costs based on the number of hours used with good accuracy.
 ## Services 
 * `Auth`
   * The authentication is responsible for creating users
