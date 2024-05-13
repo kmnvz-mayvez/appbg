@@ -6,6 +6,9 @@
 # Test coverage
 /coverage
 
+# production
+/build
+
 # Environment variables
 .env.local
 .env.development.local
