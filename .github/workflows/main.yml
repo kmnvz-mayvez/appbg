@@ -18,6 +18,9 @@ jobs:
       with:
         node-version: '14'
 
+    - name: List directory contents
+      run: ls
+
     - name: Change directory to 'demo'
       run: cd demo
 
