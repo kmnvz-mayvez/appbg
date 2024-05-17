@@ -52,6 +52,6 @@ Creating a parking app with a microservices and big data approach involves desig
 * `plate image`
   * `thanks to` https://universe.roboflow.com/plat-kendaraan/vehicle-and-license-plate
 
-## <span style="text-color: #ffff00">Disclaimer</span>
+## <span style="color: #ffff00">Disclaimer</span>
 
 <span>This project is created for educational purposes. The data used in this project is either synthetic or obtained from public sources. Any resemblance to real persons, living or dead, or actual events is purely coincidental.</span>
