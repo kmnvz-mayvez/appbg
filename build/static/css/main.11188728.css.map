@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.11188728.css","mappings":"AAAA,eAII,qBAAsB,CAHtB,sBAAuB,CACvB,sDAA6D,CAC7D,YAEJ","sources":["index.css"],"sourcesContent":[".app-container {\n    font-family: sans-serif;\n    font-family: Cambria, Cochin, Times, \"Times New Roman\", serif;\n    height: 100vh;\n    box-sizing: border-box;\n}"],"names":[],"sourceRoot":""}
