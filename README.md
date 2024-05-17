@@ -54,4 +54,4 @@ Creating a parking app with a microservices and big data approach involves desig
 
 ## <span style="background-color: #ffff00">Disclaimer</span>
 
-<span style="background-color: #ffff00">This project is created for educational purposes. The data used in this project is either synthetic or obtained from public sources. Any resemblance to real persons, living or dead, or actual events is purely coincidental.</span>
+<span>This project is created for educational purposes. The data used in this project is either synthetic or obtained from public sources. Any resemblance to real persons, living or dead, or actual events is purely coincidental.</span>
