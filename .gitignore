@@ -23,6 +23,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Ignored __pycache
+__pycache__
+
 # Docker volumes
 docker-volumes
 

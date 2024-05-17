@@ -1,16 +1,18 @@
-import json
-
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
+import json
 
-json_file_path = r':\APPBG'
+# Elasticsearch connection
 es = Elasticsearch('http://elastic:@localhost:9200')
-
+json_file_path = r'C:\_script\_json\result_plate.json'
 with open(json_file_path, 'r') as json_file:
     data = json.load(json_file)
+
+# Prepare the bulk actions
 actions = [
     {
         "_index": "plates",
+        "_id": item["id"],
         "_source": {
             "plate": item["plate"],
             "source": item["source"]
@@ -19,5 +21,6 @@ actions = [
     for item in data["plates"]
 ]
 
-success, _ = bulk(es, actions, index='_index', raise_on_error=True)
-print(f"Data sucess transport to elastic: {success}")
+# Send the data to Elasticsearch using bulk
+success, _ = bulk(es, actions, index='plates', raise_on_error=True)
+print(f"Transport to Elasticsearch: {success}")
