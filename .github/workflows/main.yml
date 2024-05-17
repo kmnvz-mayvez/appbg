@@ -3,7 +3,7 @@ name: Run NPM Commands
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
