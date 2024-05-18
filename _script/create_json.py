@@ -1,11 +1,11 @@
 import json
 
-# Path to the input file
+# lokasi file txt
 file_path = r'C:\machine learning\plate-detection\result_plate.txt'
 with open(file_path, 'r') as file:
     lines = file.readlines()
 
-# Initialize a dictionary to hold the data
+# membuat json file
 data = {'plates': []}
 for idx, line in enumerate(lines, 1):
     plate = line.strip() 

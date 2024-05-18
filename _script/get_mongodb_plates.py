@@ -1,12 +1,12 @@
 import pymongo
 import csv
 
-# check connection monggodb
+# koneksi ke monggodb
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["appbg-user"]
 collection = db["plates"]
 
-# path json file
+# save json file
 data = collection.find()
 with open('C:\\_script\\_csv\\data-plates.csv', mode='w', newline='') as file:
     writer = csv.writer(file)

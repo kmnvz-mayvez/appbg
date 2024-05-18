@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-# Membuat Spark session
+# membuat spark session
 spark = SparkSession.builder \
     .appName("Elasticsearch Integration") \
     .config("spark.jars.packages", "org.elasticsearch:elasticsearch-spark-30_2.12:8.0.0") \
@@ -13,19 +13,19 @@ spark = SparkSession.builder \
     .config("spark.executor.extraJavaOptions", "-Dlog4j.configuration=file:log4j.properties") \
     .getOrCreate()
 
-# Membaca file CSV 
+# membaca file csv 
 df_user = spark.read.csv("file:///_script/_csv/data-user.csv", header=True, inferSchema=True)
 df_plat = spark.read.csv("file:///_script/_csv/data-plates.csv", header=True, inferSchema=True)
 
-# Mengubah nama kolom
+# mengubah nama kolom
 df_user = df_user.withColumnRenamed("_id", "id")
 df_user = df_user.withColumnRenamed("plateNumber", "plate")
 df_plat = df_plat.withColumnRenamed("_id", "id")
 
-# Menggabungkan DataFrame
+# menggabungkan dataframe
 df_merge = df_user.join(df_plat, "plate")
 
-# Menyimpan DataFrame ke Elasticsearch
+# menyimpan dataframe ke elasticsearch
 df_merge.write \
     .format("org.elasticsearch.spark.sql") \
     .option("es.resource", "merge/plates") \
