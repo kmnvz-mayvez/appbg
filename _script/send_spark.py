@@ -13,10 +13,8 @@ spark = SparkSession.builder \
     .config("spark.executor.extraJavaOptions", "-Dlog4j.configuration=file:log4j.properties") \
     .getOrCreate()
 
-# Membaca file CSV pertama (data-user.csv)
+# Membaca file CSV 
 df_user = spark.read.csv("file:///_script/_csv/data-user.csv", header=True, inferSchema=True)
-
-# Membaca file CSV kedua (plat.csv)
 df_plat = spark.read.csv("file:///_script/_csv/data-plates.csv", header=True, inferSchema=True)
 
 # Mengubah nama kolom
