@@ -13,7 +13,8 @@ Creating a parking app with a microservices and big data approach involves desig
 
 #### IMPORTANT 
 * Beacuse an error nbviewer in github, go the link here for machine learning :
-   * `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/plate-detection/main.ipynb`
+   * For machine learning  `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/plate-detection/main.ipynb`
+   * For tensorflow model `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/66c0b46a89395738718829fcfecb2395e3c60005/machine%20learning/plate-detection/model.ipynb`
    
 * `Spark`
    * Data Reading: The code loads user data and license plate data from separate CSV files. 
