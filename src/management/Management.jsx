@@ -194,13 +194,14 @@ function Management() {
     };
 
     return (
-        <div className="container">
-            <h1>Management</h1>
-            <div className="d-flex justify-content-end mb-3">
-                <button className="btn btn-primary me-2" onClick={() => sortPlates('cost')}>Sort by Cost</button>
-                <button className="btn btn-primary me-2" onClick={() => sortPlates('createdAt')}>Sort by Created At</button>
-                <button className="btn btn-primary" onClick={() => sortPlates('type')}>Sort by Type</button>
-            </div>
+        <div className="container d-flex flex-column">
+        <h1 className="align-self-center">Management Parking</h1>
+        <div className="d-flex justify-content-center mb-3">
+            <button className="btn btn-primary me-2" onClick={() => sortPlates('cost')}>Sort by Cost</button>
+            <button className="btn btn-primary me-2" onClick={() => sortPlates('createdAt')}>Sort by Created At</button>
+            <button className="btn btn-primary" onClick={() => sortPlates('type')}>Sort by Type</button>
+        </div>
+        <div className="d-flex justify-content-center">
             <table className="table table-striped">
                 <thead>
                     <tr>
@@ -228,5 +229,6 @@ function Management() {
                 </tbody>
             </table>
         </div>
+    </div>    
     );
 }
