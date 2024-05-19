@@ -36,7 +36,7 @@ function fakeBackend() {
                 if (!user) return error('Username or password is incorrect');
 
                 if (user.username === 'admin') {
-                    window.location.href = 'http://localhost:3000/management';
+                    window.location.href = '/management';
                 }
 
                 return ok({
