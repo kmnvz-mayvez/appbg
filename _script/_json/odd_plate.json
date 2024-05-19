@@ -1,0 +1,516 @@
+{
+    "plates": [
+        {
+            "id": 1,
+            "_id": "6646db6ff89c18be72984dc6",
+            "plate": "B3O23KEZ",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 3,
+            "_id": "6646db6ff89c18be72984dc8",
+            "plate": "B8C2X4V5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 4,
+            "_id": "6646db6ff89c18be72984dc9",
+            "plate": "B1M3U8R7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 5,
+            "_id": "6646db6ff89c18be72984dca",
+            "plate": "B5M2W3C9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 6,
+            "_id": "6646db6ff89c18be72984dcb",
+            "plate": "B7Y4V3K9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 10,
+            "_id": "6646db6ff89c18be72984dcf",
+            "plate": "B4B7X8D5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 11,
+            "_id": "6646db6ff89c18be72984dd0",
+            "plate": "B1N3P8V7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 14,
+            "_id": "6646db6ff89c18be72984dd3",
+            "plate": "B4F7J1X3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 15,
+            "_id": "6646db6ff89c18be72984dd4",
+            "plate": "B6P2Z4U1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 18,
+            "_id": "6646db6ff89c18be72984dd7",
+            "plate": "B9C4X5V1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 20,
+            "_id": "6646db6ff89c18be72984dd9",
+            "plate": "B5E2H8V1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 21,
+            "_id": "6646db6ff89c18be72984dda",
+            "plate": "B7D1R5P3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 22,
+            "_id": "6646db6ff89c18be72984ddb",
+            "plate": "B1K7C2T5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 23,
+            "_id": "6646db6ff89c18be72984ddc",
+            "plate": "B4W3T9S1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 24,
+            "_id": "6646db6ff89c18be72984ddd",
+            "plate": "B1S5R2M9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 26,
+            "_id": "6646db6ff89c18be72984ddf",
+            "plate": "B9T7H5K1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 27,
+            "_id": "6646db6ff89c18be72984de0",
+            "plate": "B1D8W7M5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 28,
+            "_id": "6646db6ff89c18be72984de1",
+            "plate": "B2P7U5S1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 30,
+            "_id": "6646db6ff89c18be72984de3",
+            "plate": "B3K5H8Z7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 31,
+            "_id": "6646db6ff89c18be72984de4",
+            "plate": "B6S2V4T1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 32,
+            "_id": "6646db6ff89c18be72984de5",
+            "plate": "B8K1X4W7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 35,
+            "_id": "6646db6ff89c18be72984de8",
+            "plate": "B3P9Z1C5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 36,
+            "_id": "6646db6ff89c18be72984de9",
+            "plate": "B2B4F7X3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 38,
+            "_id": "6646db6ff89c18be72984deb",
+            "plate": "B1U5D3R7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 40,
+            "_id": "6646db6ff89c18be72984ded",
+            "plate": "B9X2W7V5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 43,
+            "_id": "6646db6ff89c18be72984df0",
+            "plate": "B2V4C8P3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 45,
+            "_id": "6646db6ff89c18be72984df2",
+            "plate": "B6F3C8S1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 48,
+            "_id": "6646db6ff89c18be72984df5",
+            "plate": "B3X5W9V7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 49,
+            "_id": "6646db6ff89c18be72984df6",
+            "plate": "B4J2S7N1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 50,
+            "_id": "6646db6ff89c18be72984df7",
+            "plate": "B5H1W3Z9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 51,
+            "_id": "6646db6ff89c18be72984df8",
+            "plate": "B8P5F3T1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 52,
+            "_id": "6646db6ff89c18be72984df9",
+            "plate": "B6U2H9R3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 53,
+            "_id": "6646db6ff89c18be72984dfa",
+            "plate": "B4Z2K7D1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 54,
+            "_id": "6646db6ff89c18be72984dfb",
+            "plate": "B6D1M7Z3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 55,
+            "_id": "6646db6ff89c18be72984dfc",
+            "plate": "B3T2P7M1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 58,
+            "_id": "6646db6ff89c18be72984dff",
+            "plate": "B7X4D3F1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 59,
+            "_id": "6646db6ff89c18be72984e00",
+            "plate": "B2Z8F3X7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 60,
+            "_id": "6646db6ff89c18be72984e01",
+            "plate": "B9R2S5T7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 61,
+            "_id": "6646db6ff89c18be72984e02",
+            "plate": "B7V2H9D5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 62,
+            "_id": "6646db6ff89c18be72984e03",
+            "plate": "B6J1W4T9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 63,
+            "_id": "6646db6ff89c18be72984e04",
+            "plate": "B3C5V7S1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 65,
+            "_id": "6646db6ff89c18be72984e06",
+            "plate": "B8Z1M3P9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 67,
+            "_id": "6646db6ff89c18be72984e08",
+            "plate": "B9X2N5S1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 69,
+            "_id": "6646db6ff89c18be72984e0a",
+            "plate": "B3P5U9K7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 71,
+            "_id": "6646db6ff89c18be72984e0c",
+            "plate": "B2X4V9R1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 74,
+            "_id": "6646db6ff89c18be72984e0f",
+            "plate": "B7K9J4X1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 75,
+            "_id": "6646db6ff89c18be72984e10",
+            "plate": "B8P2D3X9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 77,
+            "_id": "6646db6ff89c18be72984e12",
+            "plate": "B9H8X4W1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 78,
+            "_id": "6646db6ff89c18be72984e13",
+            "plate": "B7K2N4U1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 81,
+            "_id": "6646db6ff89c18be72984e16",
+            "plate": "B8F3Z9W7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 82,
+            "_id": "6646db6ff89c18be72984e17",
+            "plate": "B6R1T7N5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 83,
+            "_id": "6646db6ff89c18be72984e18",
+            "plate": "B9Z3K7X1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 85,
+            "_id": "6646db6ff89c18be72984e1a",
+            "plate": "B1N3U8M5",
+            "source": "motorcycle",
+            "last_digit": 5.0,
+            "type": "odd"
+        },
+        {
+            "id": 87,
+            "_id": "6646db6ff89c18be72984e1c",
+            "plate": "B6D1J7X9",
+            "source": "motorcycle",
+            "last_digit": 9.0,
+            "type": "odd"
+        },
+        {
+            "id": 88,
+            "_id": "6646db6ff89c18be72984e1d",
+            "plate": "B5P9V2N3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 89,
+            "_id": "6646db6ff89c18be72984e1e",
+            "plate": "B8M3Z2C1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 91,
+            "_id": "6646db6ff89c18be72984e20",
+            "plate": "B4F7H1M3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 92,
+            "_id": "6646db6ff89c18be72984e21",
+            "plate": "B9R7T4P1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 94,
+            "_id": "6646db6ff89c18be72984e23",
+            "plate": "B4K7N9W3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 95,
+            "_id": "6646db6ff89c18be72984e24",
+            "plate": "B2Z8R5V7",
+            "source": "motorcycle",
+            "last_digit": 7.0,
+            "type": "odd"
+        },
+        {
+            "id": 96,
+            "_id": "6646db6ff89c18be72984e25",
+            "plate": "B3P7W9T1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 97,
+            "_id": "6646db6ff89c18be72984e26",
+            "plate": "B9U2X5Z3",
+            "source": "motorcycle",
+            "last_digit": 3.0,
+            "type": "odd"
+        },
+        {
+            "id": 98,
+            "_id": "6646db6ff89c18be72984e27",
+            "plate": "B6J8H3R1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        },
+        {
+            "id": 100,
+            "_id": "6646db6ff89c18be72984e29",
+            "plate": "B6X2R9C1",
+            "source": "motorcycle",
+            "last_digit": 1.0,
+            "type": "odd"
+        }
+    ]
+}
