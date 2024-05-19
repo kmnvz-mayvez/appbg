@@ -10,6 +10,10 @@ Creating a parking app with a microservices and big data approach involves desig
    * Build Model        : Creating a Sequential model with Conv2D layers to extract features from images, MaxPooling2D layers to reduce feature size, and Dense layers for final classification.
    * Compile Model      : Compiling the model using the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function.
    * Train Model        : Training the model using the fit() method with training and validation datasets for a specified number of epochs.
+
+#### IMPORTANT 
+* Beacuse an error nbviewer in github, go the link here for machine learning
+   * `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/plate-detection/main.ipynb`
    
 * `Spark`
    * Data Reading: The code loads user data and license plate data from separate CSV files. 
@@ -20,6 +24,11 @@ Creating a parking app with a microservices and big data approach involves desig
    * Prediction: The model is used to make predictions of parking costs on the test set.
    * Model Evaluation: The model's performance is evaluated using the Mean Squared Error to measure how well it predicts parking costs.
    * Ultimate Goal: The ultimate goal of the code is to produce a machine learning model that can predict parking costs based on the number of hours used with good accuracy.
+
+#### IMPORTANT 
+* Beacuse an error nbviewer in github, go the link here for machine learning
+   * `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/plate-detection/main.ipynb`
+
 ## Services 
 * `Auth`
   * The authentication is responsible for creating users
