@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
-
 import { history } from 'helpers';
-import { Nav, Alert, PrivateRoute } from 'components';
+import { Nav, Alert, PrivateRoute, Footer } from 'components';
 import { Home } from 'home';
 import { AccountLayout } from 'account';
+import { Management } from 'management';
 
 export { App };
 
@@ -24,9 +24,11 @@ function App() {
                     </Route>
                     {/* public */}
                     <Route path="account/*" element={<AccountLayout />} />
+                    <Route path="/management" element={<Management />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
             </div>
+            <Footer />
         </div>
     );
 }

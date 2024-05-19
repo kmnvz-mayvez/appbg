@@ -38,10 +38,10 @@ function Home() {
     };
 
     return (
-        <div>
+        <div className="container">
             <h1>Hi {auth?.username}!</h1>
             <p>You're log in</p>
-            <table>
+            <table className="table">
                 <thead>
                     <tr>
                         <th style={{ width: '30%' }}>Plate Number</th>

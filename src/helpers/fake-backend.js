@@ -35,6 +35,10 @@ function fakeBackend() {
 
                 if (!user) return error('Username or password is incorrect');
 
+                if (user.username === 'admin') {
+                    window.location.href = 'http://localhost:3000/management';
+                }
+
                 return ok({
                     ...basicDetails(user),
                     token: 'fake-jwt-token'
@@ -51,8 +55,19 @@ function fakeBackend() {
                 user.id = users.length ? Math.max(...users.map(x => x.id)) + 1 : 1;
                 users.push(user);
                 localStorage.setItem(usersKey, JSON.stringify(users));
+
                 return ok();
             }
+
+            users.push({
+                id: users.length + 1,
+                username: 'admin',
+                password: 'password123',
+                plateNumber: 'B299KVZ',
+                phoneNumber: '1234567890'
+            });
+
+            localStorage.setItem(usersKey, JSON.stringify(users));
 
             function getUsers() {
                 if (!isAuthenticated()) return unauthorized();
