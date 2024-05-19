@@ -1,8 +1,8 @@
 import pandas as pd
 
 # path file csv
-even_path = r'\_script\_csv\even_plate.csv'
-odd_path = r'\_script\_csv\odd_plate.csv'
+even_path = r'\_script\_csv\even-plate.csv'
+odd_path = r'\_script\_csv\odd-plate.csv'
 
 # membaca file csv ke dalam DataFrame
 df_even = pd.read_csv(even_path)
