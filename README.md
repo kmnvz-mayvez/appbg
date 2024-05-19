@@ -12,7 +12,7 @@ Creating a parking app with a microservices and big data approach involves desig
    * Train Model        : Training the model using the fit() method with training and validation datasets for a specified number of epochs.
 
 #### IMPORTANT 
-* Beacuse an error nbviewer in github, go the link here for machine learning
+* Beacuse an error nbviewer in github, go the link here for machine learning :
    * `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/plate-detection/main.ipynb`
    
 * `Spark`
@@ -26,8 +26,8 @@ Creating a parking app with a microservices and big data approach involves desig
    * Ultimate Goal: The ultimate goal of the code is to produce a machine learning model that can predict parking costs based on the number of hours used with good accuracy.
 
 #### IMPORTANT 
-* Beacuse an error nbviewer in github, go the link here for machine learning
-   * `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/plate-detection/main.ipynb`
+* Beacuse an error nbviewer in github, go the link here for Spark :
+   * `https://nbviewer.org/github/kmnvz-mayvez/appbg/blob/6d9e53de558db0aaceed01aface641e6ae12e194/machine%20learning/spark/main.ipynb`
 
 ## Services 
 * `Auth`
