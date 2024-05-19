@@ -15,7 +15,7 @@ spark = SparkSession.builder \
 
 # membaca file csv 
 df_user = spark.read.csv("file:///_script/_csv/data-user.csv", header=True, inferSchema=True)
-df_plat = spark.read.csv("file:///_script/_csv/data-plates.csv", header=True, inferSchema=True)
+df_plat = spark.read.csv("file:///_script/_csv/combined-plate.csv", header=True, inferSchema=True)
 
 # mengubah nama kolom
 df_user = df_user.withColumnRenamed("_id", "id")
