@@ -1,15 +1,15 @@
 import json
 
-# lokasi file txt
-file_path = r'C:\machine learning\plate-detection\result_plate.txt'
+# membaca dari file
+file_path = r'\machine learning\plate-detection\result_plate.txt'
 with open(file_path, 'r') as file:
     lines = file.readlines()
 
-# membuat json file
+# simpan data
 data = {'plates': []}
 for idx, line in enumerate(lines, 1):
     plate = line.strip() 
-    data['plates'].append({'id': idx, 'plate': plate, 'source': 'motorcycle'}) 
+    data['plates'].append({'id': idx, 'plate': plate, 'source': 'car'}) 
 json_file_path = r'C:\_script\_json\result_plate.json'
 with open(json_file_path, 'w') as json_file:
     json.dump(data, json_file, indent=4)
