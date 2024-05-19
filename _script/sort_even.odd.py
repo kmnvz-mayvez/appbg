@@ -20,7 +20,7 @@ odd_df = df[df['type'] == 'odd']
 even_df = df[df['type'] == 'even']
 
 # menyimpan data ke file CSV
-odd_df.to_csv(r'C:\\_script\\_csv\\odd_plate.csv', index=False)
-even_df.to_csv(r'C:\\_script\\_csv\\even_plate.csv', index=False)
+odd_df.to_csv(r'C:\\_script\\_csv\\odd-plate.csv', index=False)
+even_df.to_csv(r'C:\\_script\\_csv\\even-plate.csv', index=False)
 
-print("Data odd dan even telah disimpan'odd_plate.csv' dan 'even_plate.csv'")
+print("Data odd dan even telah disimpan'odd-plate.csv' dan 'even-plate.csv'")
