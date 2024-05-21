@@ -3,7 +3,7 @@ from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 
 # Baca file CSV menggunakan Pandas
-csv_path = r'C:\App Big Data\_script\_csv\combined-plate.csv'
+csv_path = r'\_script\_csv\combined-plate.csv'
 df = pd.read_csv(csv_path)
 
 # Elasticsearch connection
